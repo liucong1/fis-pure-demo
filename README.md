@@ -1,3 +1,33 @@
+# 基于纯前端解决方案fis-pure的自定义demo
+
+在 [fis-pure-demo](https://github.com/hefangshi/fis-pure-demo) 的基础上，自定义了目录结构，方便纯静态页面的搭建。
+
+## 目录介绍
+
+* page中存放html文件
+* lib中存放不需要编译的js文件
+* modules中存放js、css，以及模板文件
+* 使用__inline引入页面公共部分
+
+## 使用方法
+
+* 安装Node.js环境
+
+* 安装fis-pure
+
+```bash
+npm install -g fis-pure
+```
+
+* 修改完代码后执行 `pure release -d ./dist`
+
+* 如果需要本地预览，可以在执行完`pure release`后，再执行`pure server start`
+
+* 编译完后的代码在dist中
+
+
+# 以下是fis-pure-demo的文档
+
 fis-pure-demo
 =====================================
 
